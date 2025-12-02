@@ -1,5 +1,5 @@
 {% set name = "nvector" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nvector-{{ version }}.tar.gz
-  sha256: a693c46b45284bd6c1b75eb825117e0cfdef37ce977d7395c0a0248d5993a644
+  sha256: 1a9b5a62e98070e0cce8c174f3b54f207af7ae33d73d77eed65ac3d5fa64996c
 
 build:
   noarch: python
