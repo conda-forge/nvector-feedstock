@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@opoplawski](https://github.com/opoplawski/)
+* [@pbrod](https://github.com/pbrod/)
 
