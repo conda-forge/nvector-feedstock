@@ -1,5 +1,5 @@
 {% set name = "nvector" %}
-{% set version = "1.0.6" %}
+{% set version = "1.1.0" %}
 {% set python_min = "3.10" %}
 
 
@@ -9,12 +9,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nvector-{{ version }}.tar.gz
-  sha256: 9514cce418839c974ac5266bc833f30720297f5886f569c2fbe7fe2952665626
+  sha256: 01658f2a8fde6186be8bfddb5e7d7b36bc8e3e31ba7dcfe4eee19ed600275756
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
